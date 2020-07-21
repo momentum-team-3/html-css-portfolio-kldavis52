@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(29, 31, 42, 0.8);
+  text-align: left;
+  font-size: xx-large;
+  padding: 30px 10%;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(29, 31, 42, 0.8);
+  text-align: left;
+  padding: 30px 10%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.flex-container li a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flex-item {
+  min-width: 30%;
+  max-width: 30%;
+  padding: 5px;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+  padding: 5px;
+}
+
+.flex-item > ul {
+  list-style-type: none;
+}
+
+.flex-item > ul > li {
+  background-color: rgba(100, 188, 245, 1);
+  display: inline-block;
+  padding: 3px;
+  border-radius: 14px;
+  margin: 2px;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.flex-resume {
+  display: flexbox;
+  min-width: 40%;
+  min-height: auto;
+  min-zoom: 125%;
+}
